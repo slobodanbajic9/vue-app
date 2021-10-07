@@ -41,7 +41,7 @@ export default {
   methods: {
     addTodo () {
       let newTodo = {
-        id: Date.now,
+        id: Date.now(),
         name: this.newTodoName
       }
       this.todos.push(newTodo)

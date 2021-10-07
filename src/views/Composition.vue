@@ -42,7 +42,7 @@ export default {
 
     function addTodo () {
       let newTodo = {
-        id: Date.now,
+        id: Date.now(),
         name: data.newTodoName
       }
       data.todos.push(newTodo)
